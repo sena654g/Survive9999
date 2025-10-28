@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自作ゲームサイト</title>
+  <style>
+    body { font-family: Arial; background:#111; color:#fff; text-align:center; margin:0; padding:0;}
+    header { padding:20px; background:#222;}
+    main { padding:20px;}
+    video { width:80%; max-width:800px; border:2px solid #fff; margin-bottom:20px;}
+    a.download-btn { display:inline-block; padding:10px 20px; background:#ff6600; color:#fff; text-decoration:none; border-radius:5px; font-weight:bold; margin-top:10px;}
+    a.download-btn:hover { background:#ff9933;}
+    footer { padding:10px; background:#222; margin-top:20px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>自作ゲームサイト</h1>
+  </header>
+  <main>
+    <h2>ゲーム映像</h2>
+    <video controls>
+      <source src="game.mp4" type="video/mp4">
+      お使いのブラウザは動画タグに対応していません。
+    </video>
+
+    <h2>ゲームをダウンロード</h2>
+    <a class="download-btn" href="game.zip" download>ゲームをダウンロード</a>
+  </main>
+  <footer>
+    &copy; 2025 自作ゲームサイト
+  </footer>
+</body>
+</html>
